@@ -59,8 +59,6 @@ public class Task1 {
             Path path1 = Path.of(sourcePath);
             Path path2 = Path.of(destinationPath);
             Files.copy(path1, path2);
-
-
         }
 
     }
